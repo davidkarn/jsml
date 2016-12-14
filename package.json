@@ -1,0 +1,23 @@
+{
+  "name": "js-ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsml.js",
+  "dependencies": {
+    "react": "^15.4.0"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidkarn/jsml.git"
+  },
+    "keywords": ["react", "jsx", "createElement"],
+    "author": "David Karn",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": ""
+}
