@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react')
 
 function flatten(arr) {
     var flattened = []
@@ -9,7 +9,7 @@ function flatten(arr) {
             flattened.push(arr[i])}
     return flattened }
 
-export default function(klass, attrs) {
+function jsml(klass, attrs) {
     var children = [];
     for (var i = 2; i < arguments.length;i++)
         if (arguments[i]) {
@@ -19,4 +19,6 @@ export default function(klass, attrs) {
                 children.push(arguments[i]); }
     
     var args = [klass, attrs].concat(children);
-    return React.createElement.apply(React, args); }
+  return React.createElement.apply(React, args); }
+
+module.exports = jsml
